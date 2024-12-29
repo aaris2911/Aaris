@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Aaris</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #1a1a1a;
+        }
+
+        header .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333;
+        }
+
+        .projects-section {
+            padding: 50px;
+        }
+
+        .projects-section h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background-color: #1e1e1e;
+            color: #fff;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .project-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+
+        .project-card p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Aaris</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects-section">
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="placeholder1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Description for project 1. This is a placeholder description to showcase the card layout.</p>
+            </div>
+            <div class="project-card">
+                <img src="placeholder2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Description for project 2. This is a placeholder description to showcase the card layout.</p>
+            </div>
+            <div class="project-card">
+                <img src="placeholder3.jpg" alt="Project 3">
+                <h3>Project Title 3</h3>
+                <p>Description for project 3. This is a placeholder description to showcase the card layout.</p>
+            </div>
+            <div class="project-card">
+                <img src="placeholder4.jpg" alt="Project 4">
+                <h3>Project Title 4</h3>
+                <p>Description for project 4. This is a placeholder description to showcase the card layout.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aaris - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
